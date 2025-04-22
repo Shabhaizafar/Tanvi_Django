@@ -1,0 +1,44 @@
+
+Step: 1 => Installation Python.
+
+Step: 2 => Verify :
+            Python  : python --version
+            Pip     : pip --version
+
+Step: 3 => Create a virtual environment. 
+            python -m venv venvname        (venvname : depand's you)
+
+Step: 4 => Activate virtual environment : 
+            1. venvname\Scripts\activate.bat
+            2. venvname\Scripts\activate
+
+Step: 5 => Install Django Framework
+            python -m pip install django
+
+Step: 6 => Verify : 
+            django-admin --version
+
+Step: 7 => Now Create a Django Project
+            django-admin startproject Project_Folder_Name
+        
+Step: 8 => Go to Project Folder 
+            cd Project_Folder_Name 
+
+Step: 9 => Run Project 
+            python manage.py runserver
+
+then go to http://127.0.0.1:8000/
+
+
+
+First Time Follow All Steps.
+
+then After All, Follow 4,8,9
+=====================================
+Admin Panel : 
+http://127.0.0.1:8000/admin/
+
+
+=====================================
+Terminate Project: 
+Closed Server : ctrl + c   
