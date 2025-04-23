@@ -31,6 +31,12 @@ then go to http://127.0.0.1:8000/
 
 
 
+
+=========================================
+Lecture : 2 
+
+=> If you want to create webpage/database then you must be create app in your proect folder.
+
 First Time Follow All Steps.
 
 then After All, Follow 4,8,9
