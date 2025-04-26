@@ -48,3 +48,26 @@ http://127.0.0.1:8000/admin/
 =====================================
 Terminate Project: 
 Closed Server : ctrl + c   
+
+
+
+
+student  : 5  
+    fname    char
+    lname    char 
+    age      num
+    std      num 
+    gender   char 
+
+employee : 3
+    fname     char 
+    lname     char 
+    position  char 
+    salary    float/double
+
+proffersor : 4
+    fname     char 
+    lname     char
+    sub       char 
+    exp       float
+ 
