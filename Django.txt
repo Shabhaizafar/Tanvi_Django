@@ -71,3 +71,11 @@ proffersor : 4
     sub       char 
     exp       float
  
+
+
+ How to Create  Models : 
+ How to Access in a Terminal 
+ How to insert new Data 
+ How to Update/Change/Modify Data 
+ How to Delete/remove Data 
+ How to Change/Modify Model 
