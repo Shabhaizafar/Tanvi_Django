@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>User Data</title>
+    <style>
+        td,th{
+            padding: 10px 20px;
+            color: blue;
+            font-family: calibri;
+            font-size: 24px;
+            text-align: center;
+        }
+        tr:nth-child(even){
+            background-color: #777777;
+        }
+        tr:nth-child(odd){
+            background-color: #aaaaaa;
+        }
+        tr:first-child{
+            background-color: #333333;
+        }
+    </style>
+</head>
+<body>
+    <h1>All Users</h1>
+    <!--in a List -->
+    <!-- <ul>
+        {% for x in allusers %}
+        <li>{{ x.fname }} {{ x.age }}</li>
+        {% endfor %}
+    </ul> -->
+    <table >
+        <tr>
+            <th>Sr No.</th>
+            <th>Firstname</th>
+            <th>LastName</th>
+            <th>Age</th>
+        </tr>
+        {% for x in allusers %}
+        <tr>
+            <td>{{x.id}}</td>
+            <td>{{x.fname}}</td>
+            <td>{{x.lname}}</td>
+            <td>{{x.age}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
