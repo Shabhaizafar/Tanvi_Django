@@ -1,0 +1,8 @@
+Model : 
+
+players 
+    firstname
+    lastname
+    nickname 
+    image = https://imgs.search.brave.com/stjpm35wCjkZB7JTcmQzd8oxOpKDY7Q8jC35gjJyIzQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE2/MDc0ODY2My9waG90/by9tYW5jaGVzdGVy/LWVuZ2xhbmQtbXMt/ZGhvbmktb2YtaW5k/aWEtcHJlcGFyZXMt/dG8tYmF0LWR1cmlu/Zy1hLW5ldC1zZXNz/aW9uLWF0LW9sZC10/cmFmZm9yZC1vbi5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/TGJZbXM4RGR3V2x3/TU1qMkVadXZkWXha/SHg2QXlPRGlPWXhW/ZVN2QndLOD0
+    
