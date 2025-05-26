@@ -1,11 +1,11 @@
-{% extends "mastertemplate.html" %}
-
-{% block title %}
-    Data
-{% endblock %}
-
-
-{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+</head>
+<body>
     <h1>{{user.fname}} {{user.lname}}</h1>
 
     <p>Id : {{user.id}}</p>
@@ -13,4 +13,5 @@
     <p>Age : {{user.age}}</p>
     <img src="{{user.image}}" alt="" width="">
     <h2>Back : <a href="/home">Home</a></h2>
-{% endblock %}
+</body>
+</html>
