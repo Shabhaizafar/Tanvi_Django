@@ -13,3 +13,15 @@ def getData(request):
     'mymembers' : mymembers
   }
   return HttpResponse(template.render(context,request))
+
+def django_basic(request):
+  template = loader.get_template('django_basic.html')
+  context = {
+    'xyz' : "django_basic Variable",
+    'abc' : "Royal",
+    'royal' : 2,
+    # 'mydata' : range(10)
+    # 'mydata' : [11,12,13,14]
+    'mydata' : ["Royal","Tech","soft"]
+  }
+  return HttpResponse(template.render(context,request))

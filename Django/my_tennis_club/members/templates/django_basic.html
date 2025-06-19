@@ -1,0 +1,56 @@
+<h1>Django Variable</h1>
+<b>{{ xyz }}</b> <br>
+<i>{{ abc }}</i> <br>
+
+{% with lmn="temp variable" %}
+<h2>{{ lmn }}</h2>
+{% endwith %}
+
+
+<h2>If Statement</h2>
+
+{% if royal == True %}
+<p>if Block Execute</p>
+{% elif royal == 2 %}
+<p>elif Block Execute</p>
+{% else %}
+<p>else Block Execute</p>
+{% endif %}
+
+
+<h2>Loop Statement</h2>
+{% for i in mydata %}
+<p>{{ i }}</p>
+{% endfor %}
+
+<ul>
+{% for i in mydata %}
+<li>{{ i }}</li>
+{% endfor %}
+</ul>
+
+<ul>
+{% for i in mydata reversed %}
+<li>{{ i }}</li>
+{% empty %}
+<li>No Data</li>
+{% endfor %}
+
+</ul>
+
+
+<ul>
+{% for i in emptytestobject %}
+<li>{{ i }}</li>
+{% empty %}
+<li>No Data</li>
+{% endfor %}
+</ul>
+
+<table border="">
+    <tr>
+{% for i in mydata %}
+<td>{{ i }}</td>
+{% endfor %}
+</tr>
+</table>
