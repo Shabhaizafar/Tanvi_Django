@@ -54,3 +54,10 @@
 {% endfor %}
 </tr>
 </table>
+
+<h2>outer1 {# Comments #}</h2>
+{% comment "this was the original welcome message" %}
+<h2>Comments</h2>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto iure mollitia ea beatae consequatur quam esse eos a eius numquam ipsum, consectetur eveniet nesciunt enim adipisci sunt perspiciatis cupiditate iusto.</p>
+{% endcomment %}
+<h2>outer2 Comments</h2>

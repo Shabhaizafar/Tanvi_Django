@@ -25,3 +25,14 @@ def django_basic(request):
     'mydata' : ["Royal","Tech","soft"]
   }
   return HttpResponse(template.render(context,request))
+
+
+def loaderpage(request):
+  template = loader.get_template('loaderpage.html')
+  return HttpResponse(template.render())
+
+
+
+def about(request):
+  template = loader.get_template('about.html')
+  return HttpResponse(template.render())
