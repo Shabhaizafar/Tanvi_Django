@@ -36,3 +36,7 @@ def loaderpage(request):
 def about(request):
   template = loader.get_template('about.html')
   return HttpResponse(template.render())
+
+def portfolio(request):
+  template = loader.get_template('portfolio.html')
+  return HttpResponse(template.render())
